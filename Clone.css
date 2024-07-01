@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper
+{
+    width: 100%;
+    height: 50px;
+   
+}
+#products
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    height: 200px;
+    margin: 40px;
+    /* padding: 20px; */
+    
+}
+
+.product
+{
+    width: 25%;
+}
+h2
+{ 
+       
+        padding: 20px;
+        text-align: center;
+
+}
